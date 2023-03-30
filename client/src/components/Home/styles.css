@@ -1,0 +1,112 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 8px;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+}
+
+.phrases-container {
+  height: 11vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.phrases-container > h3 {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.buttons-container {
+  display: flex;
+  width: 60%;
+  height: 80px;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.buttons-container > button:focus {
+  outline: none;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  height: 27vh;
+  width: 30vw;
+  justify-content: space-around;
+}
+
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*min-height: 100vh;*/
+  background: #f7f7f7;
+}
+.home-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  max-width: 1000px;
+  background-color: white;
+  box-shadow: 0 0 40px rgba(0,0,0,0.16);
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 12px;
+  height: 500px;
+}
+.illustration-wrapper {
+  display: flex;
+  align-items: flex-end;
+  max-width: 800px;
+  min-height: 100%;
+  background-color: #fffdf2;
+}
+.illustration-wrapper img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .buttons-container {
+  }
+  .phrases-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .box-container {
+    width: 85vw;
+  }
+  .home-box {
+    flex-direction: column;
+    box-shadow: none;
+    height: 860px;
+  }
+  .illustration-wrapper {
+    max-width: 100%;
+    min-height: auto;
+  }
+  .illustration-wrapper img {
+    border-radius: 15px;
+  }
+}
+

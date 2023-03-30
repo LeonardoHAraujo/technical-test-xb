@@ -1,0 +1,19 @@
+{
+  "translation": {
+    "titleLogin": "Bem vindo de volta",
+    "subTitleLogin": "Entrar para area de capivara",
+    "subTitleRegister": "Registre-se para area de capivara",
+    "validateNameMessage": "Por favor, insira seu nome!",
+    "validateEmailMessage": "Por favor, insira seu email!",
+    "validatePasswordMessage": "Por favor, insira sua senha!",
+    "placeholderName": "Nome",
+    "placeholderPassword": "Senha",
+    "btnRegister": "REGISTRAR",
+    "btnLogin": "ENTRAR",
+    "or": "Ou",
+    "login": "Logue-se agora",
+    "phase": "NOVA FRASE",
+    "logout": "SAIR",
+    "register": "Registre-se agora"
+  }
+}

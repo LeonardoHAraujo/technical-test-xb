@@ -1,0 +1,19 @@
+{
+  "translation": {
+    "titleLogin": "Welcome back",
+    "subTitleLogin": "Login to the capivara area",
+    "subTitleRegister": "Register to the capivara area",
+    "validateNameMessage": "Please input your name!",
+    "validateEmailMessage": "Please input your email!",
+    "validatePasswordMessage": "Please input your password!",
+    "placeholderName": "Name",
+    "placeholderPassword": "Password",
+    "btnRegister": "REGISTER",
+    "btnLogin": "LOGIN",
+    "or": "Or",
+    "login": "Login now",
+    "phase": "NEW PHASE",
+    "logout": "LOGOUT",
+    "register": "Register now"
+  }
+}
